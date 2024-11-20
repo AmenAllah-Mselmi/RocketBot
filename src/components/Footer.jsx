@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -54,7 +54,7 @@ export default function Footer() {
 
         <p className="mt-8 text-base leading-6 text-center text-gray-400">
           &copy; 2024 Designed by AmenAllah Mselmi{" "}
-          <a href="www.linkedin.com/in/amen-allah-mselmi-294171241" className="inline-block ml-2 text-gray-400 hover:text-gray-500">
+          <Link to="https://www.linkedin.com/in/amen-allah-mselmi-294171241/" className="inline-block ml-2 text-gray-400 hover:text-gray-500">
             <svg
               className="w-4 h-4 inline-block"
               aria-hidden="true"
@@ -65,7 +65,7 @@ export default function Footer() {
                 d="M20.447 20.452h-3.554v-5.9c0-1.407-.028-3.223-1.963-3.223-1.963 0-2.262 1.534-2.262 3.115v6.008H9.114v-12.2h3.413v1.662h.05c.476-.898 1.637-1.845 3.368-1.845 3.598 0 4.264 2.367 4.264 5.444v6.939zM5.337 8.433c-1.144 0-2.072-.928-2.072-2.071 0-1.144.928-2.071 2.072-2.071s2.071.928 2.071 2.071c0 1.144-.928 2.071-2.071 2.071zm1.77 12.019H3.567v-12.2h3.54v12.2zm16.36-19.452H.93c-.517 0-.93.413-.93.93v20.837c0 .517.413.93.93.93h23.534c.517 0 .93-.413.93-.93V1.93c0-.517-.413-.93-.93-.93z"
               />
             </svg>
-          </a>
+          </Link>
         </p>
       </div>
     </section>

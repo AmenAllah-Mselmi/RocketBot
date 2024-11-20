@@ -15,6 +15,7 @@ const team = [
   {
     name: 'AmenAllah Mselmi',
     image: Image,
+    linkedin: 'https://www.linkedin.com/in/amen-allah-mselmi-294171241/',
     position: 'Team Leader All-Terrain ',
   },
   {

@@ -1,5 +1,6 @@
 
 import { IoCodeSlash, IoLogoLinkedin } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 export default function TeamCard({ infos }) {
   const { name, position, image, linkedin, portfolio } = infos;
@@ -23,9 +24,9 @@ export default function TeamCard({ infos }) {
         </div>
         <div className="flex flex-col gap-1">
           {linkedin && (
-            <a href={linkedin} className="text-gray-600 text-xl hover:text-gray-800 ">
+            <Link to={linkedin} className="text-gray-600 text-xl hover:text-gray-800 ">
               <IoLogoLinkedin  className='w-7 h-7'/>
-            </a>
+            </Link>
           )}
           {portfolio && (
             <a href={portfolio} className="text-gray-600 text-xl hover:text-gray-800">
